@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-top: 20px;
+}
+
+nav {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+nav > ul {
+    text-align: right;
+    list-style: none;
+}
+
+ul > li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.logo {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content {
+    margin-top: 25px;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.home > h2 {
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.intro {
+    font-size: 17px;
+    text-align: left;
+    width: 50%;
+    margin-left: 25%;
+    color: #fff;
+}
+
+section {
+    margin-top: 50px;
+}
+
+#services > h2, .conclusion {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    font-size: 30px;
+}
+
+.button {
+    margin-top: 15px;
+    border: solid gold;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 25%;
+    background-color: rgb(248, 178, 0);
+    color: blueviolet;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: gold;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: normal;
+}
+
+a:hover {
+    color: #E0A720;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Sono', sans-serif;
+    background-color: #2F66E0;
+  }
+
+ .service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    gap: 2rem;
+  }
+
+  .service-plan {
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    background-color: goldenrod;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .service-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .plan-price {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  span {
+    font-weight: bold;
+  }
+  .plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .service-features li {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .service-button {
+    padding: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+  }
+
+  a.twitter-x:hover, a.fb:hover {
+    color: blue;
+  }
+  a.insta:hover {
+    color: rgb(184, 43, 33);
+  }
+
+ footer {
+  width: 100%;
+  height: 250px;
+  margin-top: 50px;
+  background-color: #fff;
+ }
+
+ footer li {
+  margin-top: 10px;
+  display: block;
+ }
+
+footer h4 {
+  margin-left: 10px;
+}
+
+  @media (max-width: 1250px) {
+    .pricing-container {
+      flex-direction: column;
+      height: 100%;
+    }
+  }
+
+@media (max-width: 1021px) {
+    .home > h1, .introh2 {
+        text-align: center;
+    }
+}
